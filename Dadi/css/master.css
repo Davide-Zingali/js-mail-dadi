@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 50px;
+  text-align: center;
+}
+#output {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+#output > div {
+  margin: 0 50px;
+  min-height: 60px;
+}
+#bottone {
+  /* margin-top: 30px; */
+}
+#bottone input {
+  padding: 20px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+}
+#utente, #computer {
+  color: blue;
+  font-size: 25px;
+}
+#output-risultato {
+  height: 50px;
+}
+#output-risultato {
+  font-size: 25px;
+}
