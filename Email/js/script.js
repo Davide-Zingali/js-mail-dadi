@@ -16,8 +16,10 @@ for (var i = 0; i < mailArrayA.length; i++) {
 
 // condizioni per output
 if (emailCorretta === 1) {
+  document.getElementById('output').innerHTML = 'Email presente nella lista. ACCESSO POSSIBILE';
   console.log('Complimenti email corretta');
 } else {
+  document.getElementById('output').innerHTML = "Email non presente nella lista. L'ACCESSO NON E' POSSIBILE";
   console.log('Mi dispiace email inserista scorretta');
 }
 
